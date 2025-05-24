@@ -83,6 +83,15 @@ const Form = () => {
           className="box"
         />
       </div>
+      <div className="location">
+        สถานที่
+        <input
+          // placeholder="Camping Name"
+          name="location"
+          type="text"
+          className="box"
+        />
+      </div>
     </div>
   );
 };

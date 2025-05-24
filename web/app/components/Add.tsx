@@ -2,7 +2,7 @@ import { createCamps } from "@/utils/actions";
 import Form from "./Form";
 const Add = () => {
   return (
-    <div>Add
+    <div>
         <form action={createCamps}>
           <Form />
           <button type="submit">เพิ่ม</button>
